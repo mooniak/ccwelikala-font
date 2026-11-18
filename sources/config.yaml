@@ -1,7 +1,7 @@
 # gftools-builder configuration. See:
 #   https://github.com/googlefonts/gftools/blob/main/Lib/gftools/builder/schema.py
 sources:
-  - CC_Welikala-ASCII.glyphspackage
+  - CCWelikala.glyphspackage
 familyName: "CCWelikala"
 outputDir: "../fonts"
 buildVariable: false
