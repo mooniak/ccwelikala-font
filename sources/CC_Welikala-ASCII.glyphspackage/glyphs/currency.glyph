@@ -1,0 +1,23 @@
+{
+glyphname = currency;
+layers = (
+{
+layerId = "FC529565-F289-4A08-A18B-BA4904515035";
+shapes = (
+{
+closed = 1;
+nodes = (
+(177,16,l),
+(177,-2,l),
+(37,-2,l),
+(37,16,l)
+);
+}
+);
+vertWidth = 0;
+width = 238;
+}
+);
+note = "";
+unicode = 164;
+}
