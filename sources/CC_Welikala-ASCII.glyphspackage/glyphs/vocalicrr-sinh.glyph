@@ -1,0 +1,41 @@
+{
+glyphname = "vocalicrr-sinh";
+layers = (
+{
+anchors = (
+{
+name = iisign;
+pos = (1345,0);
+},
+{
+name = isign;
+pos = (1345,0);
+},
+{
+name = usign;
+pos = (1345,0);
+},
+{
+name = uusign;
+pos = (1345,0);
+},
+{
+name = virama;
+pos = (1345,0);
+}
+);
+layerId = FC529565-F289-4A08-A18B-BA4904515035;
+shapes = (
+{
+ref = "vocalicr-sinh";
+},
+{
+pos = (1005,0);
+ref = "vocalicrsign-sinh";
+}
+);
+width = 1345;
+}
+);
+unicode = 3470;
+}

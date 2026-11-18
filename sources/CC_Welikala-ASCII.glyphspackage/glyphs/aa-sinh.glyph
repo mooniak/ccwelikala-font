@@ -1,0 +1,41 @@
+{
+glyphname = "aa-sinh";
+layers = (
+{
+anchors = (
+{
+name = iisign;
+pos = (883,0);
+},
+{
+name = isign;
+pos = (883,0);
+},
+{
+name = usign;
+pos = (883,0);
+},
+{
+name = uusign;
+pos = (883,0);
+},
+{
+name = virama;
+pos = (883,0);
+}
+);
+layerId = FC529565-F289-4A08-A18B-BA4904515035;
+shapes = (
+{
+ref = "a-sinh";
+},
+{
+pos = (576,0);
+ref = "aasign-sinh";
+}
+);
+width = 883;
+}
+);
+unicode = 3462;
+}

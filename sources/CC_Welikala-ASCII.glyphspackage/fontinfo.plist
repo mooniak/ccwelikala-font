@@ -1,12 +1,6 @@
 {
 .appVersion = "895";
 .formatVersion = 3;
-classes = (
-{
-code = "w b space comma u t v r exclam quotedbl o asterisk period slash K less greater L M hyphen zero parenright numbersign dollar percent ampersand quotesingle parenleft plus one two three four five six seven eight nine colon semicolon equal question at A B C D E F G H I J N O P Q R S T U V W X Y Z bracketleft backslash bracketright asciicircum underscore grave a s x y z q p j k c d e f g h i n m l braceleft bar braceright asciitilde cent sterling currency yen brokenbar section dieresis copyright ordfeminine guillemotleft logicalnot uni00AD registered uni00B2 uni00B3 acute Aring uacute ugrave otilde odieresis divide oslash ocircumflex oacute Ugrave agrave paragraph mu threequarters questiondown Agrave Aacute Acircumflex Adieresis AE Ccedilla Egrave Eacute Ecircumflex Edieresis Iacute Icircumflex Eth Ntilde Ograve Oacute Ocircumflex Otilde Odieresis Uacute Udieresis Yacute germandbls aacute acircumflex atilde adieresis ae ccedilla aring egrave eacute ecircumflex edieresis igrave iacute icircumflex idieresis eth ntilde ograve ydieresis thorn yacute Ucircumflex";
-name = GDEF_Simple;
-}
-);
 customParameters = (
 {
 name = hheaAscender;
@@ -49,17 +43,168 @@ date = "2019-06-19 11:06:13 +0000";
 familyName = CCWelikala;
 featurePrefixes = (
 {
-code = "#Mark attachment classes (defined in GDEF, used in lookupflags)
+code = "languagesystem DFLT dflt;
+languagesystem sinh dflt;
+
+lookup sin_akhn {
+  lookupflag 0;
+  sub ka-sinh virama-sinh zerowidthjoiner ssa-sinh by kSsa-sinh;
+  sub ka-sinh virama-sinh zerowidthjoiner va-sinh by kVa-sinh;
+  sub na-sinh virama-sinh zerowidthjoiner dha-sinh by nDha-sinh;
+  sub ta-sinh virama-sinh zerowidthjoiner va-sinh by tVa-sinh;
+} sin_akhn;
+
+lookup sin_vatu {
+  lookupflag 0;
+  sub da-sinh virama-sinh zerowidthjoiner ra-sinh by dRa-sinh;
+  sub virama-sinh zerowidthjoiner ra-sinh by rasign-sinh;
+  sub virama-sinh zerowidthjoiner ya-sinh by yasign-sinh;
+} sin_vatu;
+
+lookup sin_split_matra {
+  lookupflag 0;
+  sub ausign-sinh by vocaliclsign-sinh;
+  sub eesign-sinh by virama-sinh;
+  sub osign-sinh by aasign-sinh;
+} sin_split_matra;
+
+lookup sin_split_matra_multi {
+  lookupflag 0;
+  sub oosign-sinh by aasign-sinh virama-sinh;
+} sin_split_matra_multi;
+
+lookup sin_abvs {
+  lookupflag 0;
+  sub ba-sinh iisign-sinh by bIi-sinh;
+  sub ba-sinh isign-sinh by bI-sinh;
+  sub ba-sinh virama-sinh by b-sinh;
+  sub ca-sinh iisign-sinh by cIi-sinh;
+  sub ca-sinh isign-sinh by cI-sinh;
+  sub ca-sinh virama-sinh by c-sinh;
+  sub cha-sinh iisign-sinh by chIi-sinh;
+  sub cha-sinh isign-sinh by chI-sinh;
+  sub cha-sinh virama-sinh by ch-sinh;
+  sub da-sinh iisign-sinh by dIi-sinh;
+  sub da-sinh isign-sinh by dI-sinh;
+  sub dda-sinh iisign-sinh by ddIi-sinh;
+  sub dda-sinh isign-sinh by ddI-sinh;
+  sub dda-sinh virama-sinh by dd-sinh;
+  sub ddha-sinh iisign-sinh by ddhIi-sinh;
+  sub ddha-sinh isign-sinh by ddhI-sinh;
+  sub dha-sinh iisign-sinh by dhIi-sinh;
+  sub dha-sinh isign-sinh by dhI-sinh;
+  sub dha-sinh virama-sinh by dh-sinh;
+  sub ja-sinh iisign-sinh by jIi-sinh;
+  sub ja-sinh isign-sinh by jI-sinh;
+  sub ja-sinh virama-sinh by j-sinh;
+  sub kha-sinh iisign-sinh by khIi-sinh;
+  sub kha-sinh isign-sinh by khI-sinh;
+  sub kha-sinh virama-sinh by kh-sinh;
+  sub ma-sinh iisign-sinh by mIi-sinh;
+  sub ma-sinh isign-sinh by mI-sinh;
+  sub ma-sinh virama-sinh by m-sinh;
+  sub mba-sinh iisign-sinh by mbIi-sinh;
+  sub mba-sinh isign-sinh by mbI-sinh;
+  sub mba-sinh virama-sinh by mb-sinh;
+  sub nda-sinh iisign-sinh by ndIi-sinh;
+  sub nda-sinh isign-sinh by ndI-sinh;
+  sub nga-sinh virama-sinh by ng-sinh;
+  sub nndda-sinh iisign-sinh by nnddIi-sinh;
+  sub nndda-sinh isign-sinh by nnddI-sinh;
+  sub nndda-sinh virama-sinh by nndd-sinh;
+  sub pha-sinh iisign-sinh by phIi-sinh;
+  sub pha-sinh isign-sinh by phI-sinh;
+  sub ra-sinh iisign-sinh by rIi-sinh;
+  sub ra-sinh isign-sinh by rI-sinh;
+  sub ra-sinh virama-sinh by r-sinh;
+  sub tha-sinh iisign-sinh by thIi-sinh;
+  sub tha-sinh isign-sinh by thI-sinh;
+  sub tta-sinh iisign-sinh by ttIi-sinh;
+  sub tta-sinh isign-sinh by ttI-sinh;
+  sub tta-sinh virama-sinh by tt-sinh;
+  sub ttha-sinh iisign-sinh by tthIi-sinh;
+  sub ttha-sinh isign-sinh by tthI-sinh;
+  sub va-sinh iisign-sinh by vIi-sinh;
+  sub va-sinh isign-sinh by vI-sinh;
+  sub va-sinh virama-sinh by v-sinh;
+} sin_abvs;
+
+lookup sin_blws {
+  lookupflag 0;
+  sub da-sinh usign-sinh by dU-sinh;
+  sub da-sinh uusign-sinh by dUu-sinh;
+  sub la-sinh usign-sinh by lU-sinh;
+  sub la-sinh uusign-sinh by lUu-sinh;
+  sub lla-sinh usign-sinh by llU-sinh;
+  sub nda-sinh usign-sinh by ndU-sinh;
+  sub nda-sinh uusign-sinh by ndUu-sinh;
+  sub ra-sinh usign-sinh by rU-sinh;
+  sub ra-sinh uusign-sinh by rUu-sinh;
+} sin_blws;
+
+lookup sin_blws_hook {
+  lookupflag 0;
+  sub [ka-sinh ga-sinh ta-sinh bha-sinh sha-sinh] uusign-sinh' by uusign-sinh.alt1;
+  sub [ka-sinh ga-sinh ta-sinh bha-sinh sha-sinh] usign-sinh' by usign-sinh.alt1;
+} sin_blws_hook;
+
+lookup sin_psts {
+  lookupflag 0;
+  sub ra-sinh aaesign-sinh by rAae-sinh;
+  sub ra-sinh aesign-sinh by rAe-sinh;
+} sin_psts;
+
+lookup sin_ss01 {
+  lookupflag 0;
+  sub nda-sinh aasign-sinh by ndaa._c-sinh;
+} sin_ss01;
 ";
-name = "<anonymous>";
+name = Lookups;
+}
+);
+features = (
+{
+code = "lookup sin_akhn;
+";
+tag = akhn;
 },
 {
-code = "table GDEF {
-  GlyphClassDef @GDEF_Simple, , , ;
-
-} GDEF;
+code = "lookup sin_vatu;
 ";
-name = "<anonymous>";
+tag = vatu;
+},
+{
+code = "lookup sin_split_matra;
+lookup sin_split_matra_multi;
+";
+tag = pstf;
+},
+{
+code = "lookup sin_abvs;
+";
+tag = abvs;
+},
+{
+code = "lookup sin_blws;
+lookup sin_blws_hook;
+";
+tag = blws;
+},
+{
+code = "lookup sin_psts;
+";
+tag = psts;
+},
+{
+code = "lookup sin_ss01;
+";
+labels = (
+{
+language = dflt;
+value = "Below-base da forms";
+}
+);
+tag = ss01;
 }
 );
 fontMaster = (

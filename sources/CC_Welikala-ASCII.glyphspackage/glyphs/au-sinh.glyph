@@ -1,0 +1,41 @@
+{
+glyphname = "au-sinh";
+layers = (
+{
+anchors = (
+{
+name = iisign;
+pos = (1130,0);
+},
+{
+name = isign;
+pos = (1130,0);
+},
+{
+name = usign;
+pos = (1130,0);
+},
+{
+name = uusign;
+pos = (1130,0);
+},
+{
+name = virama;
+pos = (1130,0);
+}
+);
+layerId = FC529565-F289-4A08-A18B-BA4904515035;
+shapes = (
+{
+ref = "o-sinh";
+},
+{
+pos = (748,0);
+ref = "vocaliclsign-sinh";
+}
+);
+width = 1130;
+}
+);
+unicode = 3478;
+}

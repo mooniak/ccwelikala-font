@@ -1,0 +1,8 @@
+# CCWelikala deviations from the FM Abhaya layout (encodings/fm-abhaya.tsv in mooniak-font-tools).
+# Each was checked by rendering the glyph next to its FM neighbours (2026-11-18). Same columns as the table.
+key	unicode	text	role	name	context	note
+_	U+0DBB U+0DCA U+200D	ර්‍	alt	repha-sinh		CCWelikala draws the repaya on _ (not in FM / Pandukabhaya), to overprint the consonant typed before it: l_ renders as ර්‍ක does in Sinhala MN. The port has no repaya role, so it is reached by a hand-written rphf rule (see git log). Visual, high confidence
+©	U+0DBB U+0DCA U+200D U+0DBA	ර්‍ය	alt	rya-sinh		CCWelikala draws ය with the repaya on © (as in කාර්‍ය); matches h_ (ය + the repaya on _). Reached by a hand-written abvs rule after rphf. Visual, high confidence
+µ	U+E001		latin	uniE001		CCWelikala draws a small spacing sign like ෳ (U+0DF3) here, not Pandukabhaya's roman i. Meaning uncertain: kept typable on PUA U+E001; designer to decide
+¶	U+0D9C	ග	alt	ga-sinh.alt1		CCWelikala draws a second ග here (inner curl differs from .), not Pandukabhaya's roman v. Nothing reaches it; designer to decide
+Û	U+E000		latin	logo		CCWelikala: the "Ceylon Calligraphy" wordmark (සිලොන් කැලිග්‍රැෆි). Kept typable on PUA U+E000; designer to decide

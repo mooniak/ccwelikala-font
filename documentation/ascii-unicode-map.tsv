@@ -1,0 +1,196 @@
+old	new	status	codepoint	key	text	unicode	new_unicode	role	export	source	note
+w	a-sinh	rename	U+0077	w	අ	U+0D85	U+0D85			encoding	pandukabhaya
+b	i-sinh	rename	U+0062	b	ඉ	U+0D89	U+0D89			encoding	pandukabhaya
+space	space	same	U+0020	 			U+0020				not in the table
+comma	la-sinh	rename	U+002C	,	ල	U+0DBD	U+0DBD			encoding	pandukabhaya
+u	ma-sinh	rename	U+0075	u	ම	U+0DB8	U+0DB8			encoding	pandukabhaya
+t	e-sinh	rename	U+0074	t	එ	U+0D91	U+0D91			encoding	pandukabhaya
+v	dda-sinh	rename	U+0076	v	ඩ	U+0DA9	U+0DA9			encoding	pandukabhaya
+r	ra-sinh	rename	U+0072	r	ර	U+0DBB	U+0DBB			encoding	pandukabhaya
+exclam	vocaliclsign-sinh	rename	U+0021	!	ෟ	U+0DDF	U+0DDF			encoding	pandukabhaya
+quotedbl	comma	rename	U+0022	""""	,	U+002C	U+002C	latin		encoding	pandukabhaya
+o	da-sinh	rename	U+006F	o	ද	U+0DAF	U+0DAF			encoding	pandukabhaya
+asterisk	fa-sinh	rename	U+002A	*	ෆ	U+0DC6	U+0DC6			encoding	pandukabhaya
+period	ga-sinh	rename	U+002E	.	ග	U+0D9C	U+0D9C			encoding	pandukabhaya
+slash	rAe-sinh	rename	U+002F	/	රැ	U+0DBB U+0DD0				encoding	pandukabhaya
+K	nna-sinh	rename	U+004B	K	ණ	U+0DAB	U+0DAB			encoding	pandukabhaya
+less	lla-sinh	rename	U+003C	<	ළ	U+0DC5	U+0DC5			encoding	pandukabhaya
+greater	gha-sinh	rename	U+003E	>	ඝ	U+0D9D	U+0D9D			encoding	pandukabhaya
+L	kha-sinh	rename	U+004C	L	ඛ	U+0D9B	U+0D9B			encoding	pandukabhaya
+M	pha-sinh	rename	U+004D	M	ඵ	U+0DB5	U+0DB5			encoding	pandukabhaya
+hyphen	hyphen	same	U+002D	-	-	U+002D	U+002D	latin		encoding	pandukabhaya
+zero	zero	same	U+0030	0			U+0030				not in the table
+parenright	asterisk	rename	U+0029	)	*	U+002A	U+002A	latin		encoding	pandukabhaya
+numbersign	visargaya-sinh	rename	U+0023	#	ඃ	U+0D83	U+0D83			encoding	pandukabhaya
+dollar	slash	rename	U+0024	$	/	U+002F	U+002F	latin		encoding	pandukabhaya
+percent	rasign-sinh	rename	U+0025	%	්‍ර	U+0DCA U+200D U+0DBB				encoding	pandukabhaya; rakaransaya
+ampersand	parenright	rename	U+0026	&	)	U+0029	U+0029	latin		encoding	pandukabhaya
+quotesingle	period	rename	U+0027	'	.	U+002E	U+002E	latin		encoding	pandukabhaya
+parenleft	colon	rename	U+0028	(	:	U+003A	U+003A	latin		encoding	pandukabhaya
+plus	uusign-sinh.alt1	rename	U+002B	+	ූ	U+0DD6		alt		encoding	pandukabhaya rule '+' -> 'Q'; hook-form diga paa-pilla
+one	one	same	U+0031	1			U+0031				not in the table
+two	two	same	U+0032	2			U+0032				not in the table
+three	three	same	U+0033	3			U+0033				not in the table
+four	four	same	U+0034	4			U+0034				not in the table
+five	five	same	U+0035	5			U+0035				not in the table
+six	six	same	U+0036	6			U+0036				not in the table
+seven	seven	same	U+0037	7			U+0037				not in the table
+eight	eight	same	U+0038	8			U+0038				not in the table
+nine	nine	same	U+0039	9			U+0039				not in the table
+colon	tha-sinh	rename	U+003A	:	ථ	U+0DAE	U+0DAE			encoding	pandukabhaya
+semicolon	ta-sinh	rename	U+003B	;	ත	U+0DAD	U+0DAD			encoding	pandukabhaya
+equal	usign-sinh.alt1	rename	U+003D	=	ු	U+0DD4		alt		encoding	pandukabhaya rule '=' -> 'q'; hook-form paa-pilla (FM convention for ka ga ta bha sha)
+question	rAae-sinh	rename	U+003F	?	රෑ	U+0DBB U+0DD1				encoding	pandukabhaya
+at	question	rename	U+0040	@	?	U+003F	U+003F	latin		encoding	pandukabhaya
+A	virama-sinh.alt1	rename	U+0041	A	්	U+0DCA		alt		encoding	pandukabhaya maps A to the al-lakuna too: an alternate drawing
+B	ii-sinh	rename	U+0042	B	ඊ	U+0D8A	U+0D8A			encoding	pandukabhaya
+C	k-sinh.touch	rename	U+0043	C	ක්‍	U+0D9A U+0DCA U+200D		part	0	encoding	pandukabhaya; touching first part, used in Cj/CI/CO
+D	vocalicrsign-sinh	rename	U+0044	D	ෘ	U+0DD8	U+0DD8			encoding	pandukabhaya
+E	aaesign-sinh	rename	U+0045	E	ෑ	U+0DD1	U+0DD1			encoding	pandukabhaya
+F	t-sinh.touch	rename	U+0046	F	ත්‍	U+0DAD U+0DCA U+200D		part	0	encoding	pandukabhaya; touching first part, used in Fj
+G	ttha-sinh	rename	U+0047	G	ඨ	U+0DA8	U+0DA8			encoding	pandukabhaya
+H	yasign-sinh	rename	U+0048	H	්‍ය	U+0DCA U+200D U+0DBA				encoding	pandukabhaya
+I	ssa-sinh	rename	U+0049	I	ෂ	U+0DC2	U+0DC2			encoding	pandukabhaya
+J	n-sinh.touch	rename	U+004A	J	න්‍	U+0DB1 U+0DCA U+200D		part	0	encoding	pandukabhaya; touching first part, used in JO/Jo
+N	bha-sinh	rename	U+004E	N	භ	U+0DB7	U+0DB7			encoding	pandukabhaya
+O	dha-sinh	rename	U+004F	O	ධ	U+0DB0	U+0DB0			encoding	pandukabhaya
+P	cha-sinh	rename	U+0050	P	ඡ	U+0DA1	U+0DA1			encoding	pandukabhaya
+Q	uusign-sinh	rename	U+0051	Q	ූ	U+0DD6	U+0DD6			encoding	pandukabhaya
+R	vocalicr-sinh	rename	U+0052	R	ඍ	U+0D8D	U+0D8D			encoding	pandukabhaya
+S	iisign-sinh	rename	U+0053	S	ී	U+0DD3	U+0DD3			encoding	pandukabhaya
+T	o-sinh	rename	U+0054	T	ඔ	U+0D94	U+0D94			encoding	pandukabhaya
+U	mba-sinh	rename	U+0055	U	ඹ	U+0DB9	U+0DB9			encoding	pandukabhaya
+V	ddha-sinh	rename	U+0056	V	ඪ	U+0DAA	U+0DAA			encoding	pandukabhaya
+W	u-sinh	rename	U+0057	W	උ	U+0D8B	U+0D8B			encoding	pandukabhaya
+X	nga-sinh	rename	U+0058	X	ඞ	U+0D9E	U+0D9E			encoding	pandukabhaya
+Y	sha-sinh	rename	U+0059	Y	ශ	U+0DC1	U+0DC1			encoding	pandukabhaya
+Z	quoteright	rename	U+005A	Z	’	U+2019	U+2019	latin		encoding	pandukabhaya
+bracketleft	nya-sinh	rename	U+005B	[	ඤ	U+0DA4	U+0DA4			encoding	pandukabhaya
+backslash	ndaa._c-sinh	rename	U+005C	\	ඳා	U+0DB3 U+0DCF		ss01		encoding	added from pandukabhaya combos f\ = ඳො, f\a = ඳෝ
+bracketright	percent	rename	U+005D	]	%	U+0025	U+0025	latin		encoding	pandukabhaya
+asciicircum	parenleft	rename	U+005E	^	(	U+0028	U+0028	latin		encoding	pandukabhaya
+underscore	repha-sinh	rename	U+005F	_	ර්‍	U+0DBB U+0DCA U+200D		alt		override	CCWelikala draws the repaya on _ (not in FM / Pandukabhaya), to overprint the consonant typed before it: l_ renders as ර්‍ක does in Sinhala MN. The port has no repaya role, so it is reached by a hand-written rphf rule (see git log). Visual, high confidence
+grave	sanyaka-sinh	rename	U+0060	`				part	0	encoding	pandukabhaya extra_mappings: nasal prefix (`. = ඟ, `o = ඳ ...)
+a	virama-sinh	rename	U+0061	a	්	U+0DCA	U+0DCA			encoding	pandukabhaya; primary al-lakuna
+s	isign-sinh	rename	U+0073	s	ි	U+0DD2	U+0DD2			encoding	pandukabhaya
+x	anusvaraya-sinh	rename	U+0078	x	ං	U+0D82	U+0D82			encoding	pandukabhaya
+y	ha-sinh	rename	U+0079	y	හ	U+0DC4	U+0DC4			encoding	pandukabhaya
+z	quoteleft	rename	U+007A	z	‘	U+2018	U+2018	latin		encoding	pandukabhaya
+q	usign-sinh	rename	U+0071	q	ු	U+0DD4	U+0DD4			encoding	pandukabhaya
+p	ca-sinh	rename	U+0070	p	ච	U+0DA0	U+0DA0			encoding	pandukabhaya
+j	va-sinh	rename	U+006A	j	ව	U+0DC0	U+0DC0			encoding	pandukabhaya
+k	na-sinh	rename	U+006B	k	න	U+0DB1	U+0DB1			encoding	pandukabhaya
+c	ja-sinh	rename	U+0063	c	ජ	U+0DA2	U+0DA2			encoding	pandukabhaya
+d	aasign-sinh	rename	U+0064	d	ා	U+0DCF	U+0DCF			encoding	pandukabhaya
+e	aesign-sinh	rename	U+0065	e	ැ	U+0DD0	U+0DD0			encoding	pandukabhaya
+f	esign-sinh	rename	U+0066	f	ෙ	U+0DD9	U+0DD9			encoding	pandukabhaya
+g	tta-sinh	rename	U+0067	g	ට	U+0DA7	U+0DA7			encoding	pandukabhaya
+h	ya-sinh	rename	U+0068	h	ය	U+0DBA	U+0DBA			encoding	pandukabhaya
+i	sa-sinh	rename	U+0069	i	ස	U+0DC3	U+0DC3			encoding	pandukabhaya
+n	ba-sinh	rename	U+006E	n	බ	U+0DB6	U+0DB6			encoding	pandukabhaya
+m	pa-sinh	rename	U+006D	m	ප	U+0DB4	U+0DB4			encoding	pandukabhaya
+l	ka-sinh	rename	U+006C	l	ක	U+0D9A	U+0D9A			encoding	pandukabhaya
+braceleft	jnya-sinh	rename	U+007B	{	ඥ	U+0DA5	U+0DA5			encoding	pandukabhaya
+bar	nda-sinh	rename	U+007C	|	ඳ	U+0DB3	U+0DB3			encoding	pandukabhaya
+braceright	equal	rename	U+007D	}	=	U+003D	U+003D	latin		encoding	pandukabhaya
+asciitilde	nndda-sinh	rename	U+007E	~	ඬ	U+0DAC	U+0DAC			encoding	pandukabhaya
+cent	ndI-sinh	rename	U+00A2	¢	ඳි	U+0DB3 U+0DD2				encoding	pandukabhaya
+sterling	ndIi-sinh	rename	U+00A3	£	ඳී	U+0DB3 U+0DD3				encoding	pandukabhaya
+currency	endash	rename	U+00A4	¤	–	U+2013	U+2013	latin		encoding	pandukabhaya
+yen	dUu-sinh	rename	U+00A5	¥	දූ	U+0DAF U+0DD6				encoding	added from pandukabhaya combo `¥ = ඳූ
+brokenbar	semicolon	rename	U+00A6	¦	;	U+003B	U+003B	latin		encoding	pandukabhaya
+section	dIi-sinh	rename	U+00A7	§	දී	U+0DAF U+0DD3				encoding	pandukabhaya
+dieresis	lU-sinh	rename	U+00A8	¨	ලු	U+0DBD U+0DD4				encoding	pandukabhaya
+copyright	rya-sinh	rename	U+00A9	©	ර්‍ය	U+0DBB U+0DCA U+200D U+0DBA		alt		override	CCWelikala draws ය with the repaya on © (as in කාර්‍ය); matches h_ (ය + the repaya on _). Reached by a hand-written abvs rule after rphf. Visual, high confidence
+ordfeminine	ndUu-sinh	rename	U+00AA	ª	ඳූ	U+0DB3 U+0DD6				encoding	pandukabhaya
+guillemotleft	multiply	rename	U+00AB	«	×	U+00D7	U+00D7	latin		encoding	pandukabhaya
+logicalnot	plus	rename	U+00AC	¬	+	U+002B	U+002B	latin		encoding	pandukabhaya
+uni00AD	divide	rename	U+00AD	­	÷	U+00F7	U+00F7	latin		encoding	pandukabhaya
+registered	jha-sinh	rename	U+00AE	®	ඣ	U+0DA3	U+0DA3			encoding	pandukabhaya
+uni00B2	bullet	rename	U+00B2	²	•	U+2022	U+2022	latin		encoding	pandukabhaya
+uni00B3	uni22C6	rename	U+00B3	³	⋆	U+22C6	U+22C6	latin		encoding	pandukabhaya
+acute	oo-sinh	rename	U+00B4	´	ඕ	U+0D95	U+0D95			encoding	pandukabhaya
+Aring	khI-sinh	rename	U+00C5	Å	ඛි	U+0D9B U+0DD2				encoding	pandukabhaya
+uacute	vI-sinh	rename	U+00FA	ú	වි	U+0DC0 U+0DD2				encoding	pandukabhaya
+ugrave	vIi-sinh	rename	U+00F9	ù	වී	U+0DC0 U+0DD3				encoding	pandukabhaya
+otilde	v-sinh	rename	U+00F5	õ	ව්	U+0DC0 U+0DCA				encoding	pandukabhaya
+odieresis	mbIi-sinh	rename	U+00F6	ö	ඹී	U+0DB9 U+0DD3				encoding	pandukabhaya
+divide	ndU-sinh	rename	U+00F7	÷	ඳු	U+0DB3 U+0DD4				encoding	pandukabhaya
+oslash	dRa-sinh	rename	U+00F8	ø	ද්‍ර	U+0DAF U+0DCA U+200D U+0DBB				encoding	pandukabhaya
+ocircumflex	mbI-sinh	rename	U+00F4	ô	ඹි	U+0DB9 U+0DD2				encoding	pandukabhaya
+oacute	mIi-sinh	rename	U+00F3	ó	මී	U+0DB8 U+0DD3				encoding	pandukabhaya
+Ugrave	ng-sinh	rename	U+00D9	Ù	ඞ්	U+0D9E U+0DCA				encoding	pandukabhaya
+agrave	ttIi-sinh	rename	U+00E0	à	ටී	U+0DA7 U+0DD3				encoding	pandukabhaya
+paragraph	ga-sinh.alt1	rename	U+00B6	¶	ග	U+0D9C		alt		override	CCWelikala draws a second ග here (inner curl differs from .), not Pandukabhaya's roman v. Nothing reaches it; designer to decide
+mu	uniE001	rename	U+00B5	µ		U+E001	U+E001	latin		override	CCWelikala draws a small spacing sign like ෳ (U+0DF3) here, not Pandukabhaya's roman i. Meaning uncertain: kept typable on PUA U+E001; designer to decide
+threequarters	r-sinh	rename	U+00BE	¾	ර්	U+0DBB U+0DCA				encoding	pandukabhaya
+questiondown	llU-sinh	rename	U+00BF	¿	ළු	U+0DC5 U+0DD4				encoding	pandukabhaya
+Agrave	tthI-sinh	rename	U+00C0	À	ඨි	U+0DA8 U+0DD2				encoding	pandukabhaya
+Aacute	tthIi-sinh	rename	U+00C1	Á	ඨී	U+0DA8 U+0DD3				encoding	pandukabhaya
+Acircumflex	chIi-sinh	rename	U+00C2	Â	ඡී	U+0DA1 U+0DD3				encoding	pandukabhaya
+Adieresis	kh-sinh	rename	U+00C4	Ä	ඛ්	U+0D9B U+0DCA				encoding	pandukabhaya
+AE	lUu-sinh	rename	U+00C6	Æ	ලූ	U+0DBD U+0DD6				encoding	pandukabhaya
+Ccedilla	khIi-sinh	rename	U+00C7	Ç	ඛී	U+0D9B U+0DD3				encoding	pandukabhaya
+Egrave	dI-sinh	rename	U+00C8	È	දි	U+0DAF U+0DD2				encoding	pandukabhaya
+Eacute	c-sinh	rename	U+00C9	É	ච්	U+0DA0 U+0DCA				encoding	pandukabhaya
+Ecircumflex	j-sinh	rename	U+00CA	Ê	ජ්	U+0DA2 U+0DCA				encoding	pandukabhaya
+Edieresis	kSsa-sinh	rename	U+00CB	Ë	ක්‍ෂ	U+0D9A U+0DCA U+200D U+0DC2				encoding	pandukabhaya
+Iacute	rIi-sinh	rename	U+00CD	Í	රී	U+0DBB U+0DD3				encoding	pandukabhaya
+Icircumflex	ddhI-sinh	rename	U+00CE	Î	ඪි	U+0DAA U+0DD2				encoding	pandukabhaya
+Eth	ddhIi-sinh	rename	U+00D0	Ð	ඪී	U+0DAA U+0DD3				encoding	pandukabhaya
+Ntilde	cI-sinh	rename	U+00D1	Ñ	චි	U+0DA0 U+0DD2				encoding	pandukabhaya
+Ograve	thIi-sinh	rename	U+00D2	Ò	ථී	U+0DAE U+0DD3				encoding	pandukabhaya
+Oacute	thI-sinh	rename	U+00D3	Ó	ථි	U+0DAE U+0DD2				encoding	pandukabhaya
+Ocircumflex	jIi-sinh	rename	U+00D4	Ô	ජී	U+0DA2 U+0DD3				encoding	pandukabhaya
+Otilde	nnga-sinh	rename	U+00D5	Õ	ඟ	U+0D9F	U+0D9F			encoding	pandukabhaya
+Odieresis	cIi-sinh	rename	U+00D6	Ö	චී	U+0DA0 U+0DD3				encoding	pandukabhaya
+Uacute	phIi-sinh	rename	U+00DA	Ú	ඵී	U+0DB5 U+0DD3				encoding	pandukabhaya
+Udieresis	tt-sinh	rename	U+00DC	Ü	ට්	U+0DA7 U+0DCA				encoding	pandukabhaya
+Yacute	phI-sinh	rename	U+00DD	Ý	ඵි	U+0DB5 U+0DD2				encoding	pandukabhaya
+germandbls	rI-sinh	rename	U+00DF	ß	රි	U+0DBB U+0DD2				encoding	pandukabhaya
+aacute	ttI-sinh	rename	U+00E1	á	ටි	U+0DA7 U+0DD2				encoding	pandukabhaya
+acircumflex	dd-sinh	rename	U+00E2	â	ඩ්	U+0DA9 U+0DCA				encoding	pandukabhaya
+atilde	ddIi-sinh	rename	U+00E3	ã	ඩී	U+0DA9 U+0DD3				encoding	corrected: pandukabhaya single says ඞී but its own combo ã% = ඩ්‍රී, and â ä ã is the ඩ triple (like å ç é for ඬ)
+adieresis	ddI-sinh	rename	U+00E4	ä	ඩි	U+0DA9 U+0DD2				encoding	pandukabhaya
+ae	exclam	rename	U+00E6	æ	!	U+0021	U+0021	latin		encoding	pandukabhaya
+ccedilla	nnddI-sinh	rename	U+00E7	ç	ඬි	U+0DAC U+0DD2				encoding	pandukabhaya
+aring	nndd-sinh	rename	U+00E5	å	ඬ්	U+0DAC U+0DCA				encoding	pandukabhaya
+egrave	dh-sinh	rename	U+00E8	è	ධ්	U+0DB0 U+0DCA				encoding	pandukabhaya
+eacute	nnddIi-sinh	rename	U+00E9	é	ඬී	U+0DAC U+0DD3				encoding	pandukabhaya
+ecircumflex	dhI-sinh	rename	U+00EA	ê	ධි	U+0DB0 U+0DD2				encoding	pandukabhaya
+edieresis	dhIi-sinh	rename	U+00EB	ë	ධී	U+0DB0 U+0DD3				encoding	pandukabhaya
+igrave	bI-sinh	rename	U+00EC	ì	බි	U+0DB6 U+0DD2				encoding	pandukabhaya
+iacute	b-sinh	rename	U+00ED	í	බ්	U+0DB6 U+0DCA				encoding	pandukabhaya
+icircumflex	bIi-sinh	rename	U+00EE	î	බී	U+0DB6 U+0DD3				encoding	pandukabhaya
+idieresis	m-sinh	rename	U+00EF	ï	ම්	U+0DB8 U+0DCA				encoding	pandukabhaya
+eth	jI-sinh	rename	U+00F0	ð	ජි	U+0DA2 U+0DD2				encoding	pandukabhaya
+ntilde	mI-sinh	rename	U+00F1	ñ	මි	U+0DB8 U+0DD2				encoding	pandukabhaya
+ograve	mb-sinh	rename	U+00F2	ò	ඹ්	U+0DB9 U+0DCA				encoding	pandukabhaya
+ydieresis	dU-sinh	rename	U+00FF	ÿ	දු	U+0DAF U+0DD4				encoding	pandukabhaya
+thorn	ch-sinh	rename	U+00FE	þ	ඡ්	U+0DA1 U+0DCA				encoding	pandukabhaya
+yacute	chI-sinh	rename	U+00FD	ý	ඡි	U+0DA1 U+0DD2				encoding	pandukabhaya
+Ucircumflex	logo	rename	U+00DB	Û		U+E000	U+E000	latin		override	"CCWelikala: the ""Ceylon Calligraphy"" wordmark (සිලොන් කැලිග්‍රැෆි). Kept typable on PUA U+E000; designer to decide"
+	kVa-sinh	compose		Cj	ක්‍ව	U+0D9A U+0DCA U+200D U+0DC0				encoding	FM keys 'Cj'; pandukabhaya letters.additional_consonants
+	vocalicrrsign-sinh	compose		DD	ෲ	U+0DF2	U+0DF2			encoding	FM keys 'DD'; pandukabhaya letters.repeat_modifiers
+	tVa-sinh	compose		Fj	ත්‍ව	U+0DAD U+0DCA U+200D U+0DC0				encoding	FM keys 'Fj'; FM: touching ta (F) + va (j); Pandukabhaya has only the precomposed …
+	nDha-sinh	compose		JO	න්‍ධ	U+0DB1 U+0DCA U+200D U+0DB0				encoding	FM keys 'JO'; pandukabhaya letters.additional_consonants
+	vocalicrr-sinh	compose		RD	ඎ	U+0D8E	U+0D8E			encoding	FM keys 'RD'; pandukabhaya letters.vowels
+	au-sinh	compose		T!	ඖ	U+0D96	U+0D96			encoding	FM keys 'T!'; pandukabhaya letters.vowels
+	uu-sinh	compose		W!	ඌ	U+0D8C	U+0D8C			encoding	FM keys 'W!'; pandukabhaya letters.vowels
+	nyja-sinh	compose		`P	ඦ	U+0DA6	U+0DA6			encoding	FM keys '`P'; pandukabhaya letters.extra_mappings
+	ausign-sinh	compose		f!	ෞ	U+0DDE	U+0DDE	split		encoding	FM keys 'f!'; display glyph for U+0DDE
+	eesign-sinh	compose		fa	ේ	U+0DDA	U+0DDA	split		encoding	FM keys 'fa'; display glyph for U+0DDA; shaping splits it (pstf)
+	osign-sinh	compose		fd	ො	U+0DDC	U+0DDC	split		encoding	FM keys 'fd'; display glyph for U+0DDC
+	oosign-sinh	compose		fda	ෝ	U+0DDD	U+0DDD	split		encoding	FM keys 'fda'; display glyph for U+0DDD
+	aisign-sinh	compose		ff	ෛ	U+0DDB	U+0DDB			encoding	FM keys 'ff'; pandukabhaya letters.repeat_modifiers
+	ai-sinh	compose		ft	ඓ	U+0D93	U+0D93			encoding	FM keys 'ft'; pandukabhaya letters.vowels
+	rUu-sinh	compose		rE	රූ	U+0DBB U+0DD6				encoding	FM keys 'rE'; pandukabhaya combo
+	rU-sinh	compose		re	රු	U+0DBB U+0DD4				encoding	FM keys 're'; pandukabhaya combo
+	ee-sinh	compose		ta	ඒ	U+0D92	U+0D92			encoding	FM keys 'ta'; pandukabhaya letters.vowels
+	aae-sinh	compose		wE	ඈ	U+0D88	U+0D88			encoding	FM keys 'wE'; pandukabhaya letters.vowels
+	aa-sinh	compose		wd	ආ	U+0D86	U+0D86			encoding	FM keys 'wd'; pandukabhaya letters.vowels
+	ae-sinh	compose		we	ඇ	U+0D87	U+0D87			encoding	FM keys 'we'; pandukabhaya letters.vowels
+	zerowidthjoiner	add					U+200D				added
+	zerowidthnonjoiner	add					U+200C				added
+	nbspace	add					U+00A0				added
+	dottedCircle	add					U+25CC				added, drawn: 12 dots
