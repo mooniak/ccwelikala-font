@@ -19,8 +19,6 @@ CCWelikala is a round, monoline Sinhala typeface by Damith Welikala (Ceylon Call
 Its letters are drawn with one even line and round, open shapes, for headings, posters, packaging and short texts at larger sizes. It is published by [Mooniak](https://mooniak.com/) as a free font under the SIL Open
 Font License, in a single Regular weight.
 
-> **Port in progress.** The source has been converted to Unicode, but the Mooniak metadata step is not done yet: the source is still named `CC_Welikala-ASCII.glyphspackage`, and the font's copyright, designer, vendor ID and vertical metrics are still the 2019 ones.
-
 ![CCWelikala specimen](documentation/image1.png)
 ![CCWelikala character set](documentation/image2.png)
 
@@ -69,9 +67,9 @@ The port was checked by rendering 1255 texts (every glyph slot, 961 syllables, 1
 | **Formats** | TTF, OTF and WOFF2 (`CCWelikala-Regular.*`) |
 | **Glyphs** | 192 (114 mapped to Unicode code points; the rest are ligatures and alternates used by OpenType features) |
 | **Units per em** | 1000 |
-| **Vertical metrics** | still the 2019 values (`hhea` 902 / −247; typo 800 / −200 with a 200 line gap; win 1000 / 200); the Mooniak metadata step will set Google Fonts metrics |
+| **Vertical metrics** | ascent 920, descent −280, line gap 0 (1.2 em; `hhea`, typo and win; `USE_TYPO_METRICS` on) |
 | **File size** | about 335 KB (TTF), 221 KB (OTF), 128 KB (WOFF2) |
-| **Source format** | [Glyphs](https://glyphsapp.com/) 3 package (`sources/CC_Welikala-ASCII.glyphspackage`) |
+| **Source format** | [Glyphs](https://glyphsapp.com/) 3 package (`sources/CCWelikala.glyphspackage`) |
 | **License** | [SIL Open Font License 1.1](OFL.txt) |
 
 ### Character coverage
@@ -97,7 +95,7 @@ Most conjuncts fall back to a letter with a visible al-lakuna, and some glyphs n
 
 | Path | What it is |
 |---|---|
-| `sources/CC_Welikala-ASCII.glyphspackage` | The font source: glyphs, anchors and OpenType feature code, as a Glyphs 3 package |
+| `sources/CCWelikala.glyphspackage` | The font source: glyphs, anchors and OpenType feature code, as a Glyphs 3 package |
 | `sources/config.yaml` | Build configuration read by [gftools](https://github.com/googlefonts/gftools) |
 | `fontpackage.json` | Mooniak catalogue metadata (name, designer, tier, channels) |
 | `Makefile` | Build, test and proof targets (see below) |
@@ -179,7 +177,7 @@ Bump `versionMajor`/`versionMinor` in the source before tagging. The next releas
 
 Bug reports and design feedback are welcome in the
 [issue tracker](https://github.com/mooniak/ccwelikala-font/issues). Open pull requests against
-`dev`, edit `sources/CC_Welikala-ASCII.glyphspackage` with Glyphs 3, rebuild
+`dev`, edit `sources/CCWelikala.glyphspackage` with Glyphs 3, rebuild
 (`rm build.stamp && make build`) and run `make test`. Add yourself to `CONTRIBUTORS.txt`.
 
 ## Credits
@@ -195,7 +193,7 @@ Bug reports and design feedback are welcome in the
 - Ported from the FM Abhaya ASCII layout to Unicode: LankaGlyphset names, Sinhala code points,
   composed vowels and ligatures, generated OpenType features, mark anchors.
 - Moved to the Mooniak build pipeline: Glyphs 3 package, gftools builds with CI, proofs and QA.
-- Added no-break space, ZWJ/ZWNJ and dotted circle.
+- Added no-break space, ZWJ/ZWNJ and dotted circle; Google Fonts vertical metrics; Mooniak copyright, designer, vendor ID and OFL licence in the font.
 
 **2019, version 1.000.** Damith Welikala's original, an FM-layout ASCII font made in FontForge.
 

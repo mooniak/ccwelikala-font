@@ -40,7 +40,7 @@
   ],
   "maintenance": {
     "status": "actively-developed",
-    "comment": "Ported 2026-11-18 from a 2019 FontForge source in the FM Abhaya ASCII layout (tools/font-migration/ascii_to_unicode.py). Drawn repaya and ර්‍ය; few conjuncts, and glyphs whose meaning the designer should confirm. Source metadata step (rename, set_metadata, vertical metrics) still to do."
+    "comment": "Ported 2026-11-18 from a 2019 FontForge source in the FM Abhaya ASCII layout (tools/font-migration/ascii_to_unicode.py). Drawn repaya and ර්‍ය; few conjuncts, and glyphs whose meaning the designer should confirm."
   },
   "tools": "Glyphs 3 (originally FontForge)",
   "tags": {
