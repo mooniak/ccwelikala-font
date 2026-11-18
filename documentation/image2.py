@@ -1,7 +1,7 @@
 # This script is meant to be run from the root level
 # of your font's git repository. For example, from a Unix terminal:
-# $ git clone my-font
-# $ cd my-font
+# $ git clone https://github.com/mooniak/ccwelikala-font.git
+# $ cd ccwelikala-font
 # $ python3 documentation/image1.py --output documentation/image1.png
 
 # Import moduels from external python packages: https://pypi.org/
@@ -13,19 +13,20 @@ from fontTools.misc.fixedTools import floatToFixedToStr
 import subprocess
 import sys
 import argparse
+import glob
 
 # Constants, these are the main "settings" for the image
 WIDTH, HEIGHT, MARGIN, FRAMES = 2048, 1024, 128, 1
-FONT_PATH = "fonts/variable/MyFont[wght].ttf"
+FONT_PATH = (sorted(glob.glob("fonts/ttf/*.ttf")) or sorted(glob.glob("fonts/variable/*.ttf")))[0]
 FONT_LICENSE = "OFL v1.1"
 AUXILIARY_FONT = "Helvetica"
 AUXILIARY_FONT_SIZE = 48
 
-LINE_ONE = "ABCDEFGHIJKLMNOPQ"
-LINE_TWO = "RSTUVWXYZ123456789"
-LINE_THREE = "abcdefghijklmnopqrstu"
-LINE_FOUR = "vwxyz,.;:!@#$%^&*(){}[]"
-BIG_TEXT_FONT_SIZE = 160
+LINE_ONE = "අආඇඈඉඊඋඌඑඒඓඔඕඖ"
+LINE_TWO = "කඛගඝඞඟචඡජඤඥටඨඩඪ"
+LINE_THREE = "ණඬතථදධනඳපඵබභමඹය"
+LINE_FOUR = "රලවශෂසහළෆ 0123456789"
+BIG_TEXT_FONT_SIZE = 140
 BIG_TEXT_SIDE_MARGIN = MARGIN * 1
 BIG_TEXT_BOTTOM_MARGIN = MARGIN * 5.45
 

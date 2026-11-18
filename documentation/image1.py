@@ -1,7 +1,7 @@
 # This script is meant to be run from the root level
 # of your font's git repository. For example, from a Unix terminal:
-# $ git clone my-font
-# $ cd my-font
+# $ git clone https://github.com/mooniak/ccwelikala-font.git
+# $ cd ccwelikala-font
 # $ python3 documentation/image1.py --output documentation/image1.png
 
 # Import moduels from external python packages: https://pypi.org/
@@ -13,18 +13,19 @@ from fontTools.misc.fixedTools import floatToFixedToStr
 import subprocess
 import sys
 import argparse
+import glob
 
 # Constants, these are the main "settings" for the image
 WIDTH, HEIGHT, MARGIN, FRAMES = 2048, 1024, 128, 1
-FONT_PATH = "fonts/variable/MyFont[wght].ttf"
+FONT_PATH = (sorted(glob.glob("fonts/ttf/*.ttf")) or sorted(glob.glob("fonts/variable/*.ttf")))[0]
 FONT_LICENSE = "OFL v1.1"
 AUXILIARY_FONT = "Helvetica"
 AUXILIARY_FONT_SIZE = 48
 
-BIG_TEXT = "AaBb"
-BIG_TEXT_FONT_SIZE = 730
+BIG_TEXT = "වැලිකල"
+BIG_TEXT_FONT_SIZE = 420
 BIG_TEXT_SIDE_MARGIN = MARGIN * 1
-BIG_TEXT_BOTTOM_MARGIN = MARGIN * 2
+BIG_TEXT_BOTTOM_MARGIN = MARGIN * 2.6
 
 GRID_VIEW = False # Toggle this for a grid overlay
 
