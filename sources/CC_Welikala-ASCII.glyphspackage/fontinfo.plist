@@ -154,6 +154,21 @@ lookup sin_psts {
   sub ra-sinh aesign-sinh by rAe-sinh;
 } sin_psts;
 
+lookup sin_rphf {
+  lookupflag 0;
+  sub ra-sinh virama-sinh zerowidthjoiner by repha-sinh;
+} sin_rphf;
+
+lookup sin_abvs_rra {
+  lookupflag 0;
+  sub ra-sinh repha-sinh' by rasign-sinh;
+} sin_abvs_rra;
+
+lookup sin_abvs_repha {
+  lookupflag 0;
+  sub ya-sinh repha-sinh by rya-sinh;
+} sin_abvs_repha;
+
 lookup sin_ss01 {
   lookupflag 0;
   sub nda-sinh aasign-sinh by ndaa._c-sinh;
@@ -169,6 +184,11 @@ code = "lookup sin_akhn;
 tag = akhn;
 },
 {
+code = "lookup sin_rphf;
+";
+tag = rphf;
+},
+{
 code = "lookup sin_vatu;
 ";
 tag = vatu;
@@ -181,6 +201,8 @@ tag = pstf;
 },
 {
 code = "lookup sin_abvs;
+lookup sin_abvs_rra;
+lookup sin_abvs_repha;
 ";
 tag = abvs;
 },

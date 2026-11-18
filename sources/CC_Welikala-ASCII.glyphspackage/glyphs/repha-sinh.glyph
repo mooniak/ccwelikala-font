@@ -1,29 +1,8 @@
 {
+category = Mark;
 glyphname = "repha-sinh";
 layers = (
 {
-anchors = (
-{
-name = iisign;
-pos = (4,0);
-},
-{
-name = isign;
-pos = (4,0);
-},
-{
-name = usign;
-pos = (4,0);
-},
-{
-name = uusign;
-pos = (4,0);
-},
-{
-name = virama;
-pos = (4,0);
-}
-);
 layerId = "FC529565-F289-4A08-A18B-BA4904515035";
 shapes = (
 {
@@ -525,8 +504,9 @@ nodes = (
 }
 );
 vertWidth = 0;
-width = 4;
+width = 0;
 }
 );
 note = "";
+subCategory = Nonspacing;
 }
