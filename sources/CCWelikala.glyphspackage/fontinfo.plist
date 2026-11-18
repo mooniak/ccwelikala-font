@@ -3,40 +3,13 @@
 .formatVersion = 3;
 customParameters = (
 {
-name = hheaAscender;
-value = 902;
+name = fsType;
+value = (
+);
 },
 {
-name = hheaDescender;
-value = -247;
-},
-{
-name = hheaLineGap;
-value = 0;
-},
-{
-name = isFixedPitch;
-value = 0;
-},
-{
-name = versionString;
-value = "Version 1.000";
-},
-{
-name = postscriptFullName;
-value = CC_Welikala;
-},
-{
-name = postscriptFontName;
-value = CC_Welikala;
-},
-{
-name = postscriptWeightName;
-value = Regular;
-},
-{
-name = styleMapFamilyName;
-value = CC_Welikala;
+name = vendorID;
+value = MNIK;
 }
 );
 date = "2019-06-19 11:06:13 +0000";
@@ -233,40 +206,40 @@ fontMaster = (
 {
 customParameters = (
 {
+name = "Use Typo Metrics";
+value = 1;
+},
+{
 name = hheaAscender;
-value = 902;
+value = 920;
 },
 {
 name = hheaDescender;
-value = -247;
+value = -280;
 },
 {
 name = hheaLineGap;
 value = 0;
 },
 {
-name = isFixedPitch;
+name = typoAscender;
+value = 920;
+},
+{
+name = typoDescender;
+value = -280;
+},
+{
+name = typoLineGap;
 value = 0;
 },
 {
-name = versionString;
-value = "Version 1.000";
+name = winAscent;
+value = 920;
 },
 {
-name = postscriptFullName;
-value = CC_Welikala;
-},
-{
-name = postscriptFontName;
-value = CC_Welikala;
-},
-{
-name = postscriptWeightName;
-value = Regular;
-},
-{
-name = styleMapFamilyName;
-value = CC_Welikala;
+name = winDescent;
+value = 280;
 }
 );
 id = "FC529565-F289-4A08-A18B-BA4904515035";
@@ -290,9 +263,6 @@ pos = -200;
 }
 );
 name = Regular;
-userData = {
-com.schriftgestaltung.Glyphs.ufoNote = "2019-6-19: Created with FontForge (http://fontforge.org)";
-};
 }
 );
 instances = (
@@ -327,7 +297,51 @@ type = "italic angle";
 properties = (
 {
 key = copyrights;
-value = "Copyright (c) 2019, Damith Welikala";
+values = (
+{
+language = dflt;
+value = "Copyright 2019 The CCWelikala Project Authors (https://github.com/mooniak/ccwelikala-font)";
+}
+);
+},
+{
+key = designers;
+values = (
+{
+language = dflt;
+value = "Damith Welikala";
+}
+);
+},
+{
+key = manufacturers;
+values = (
+{
+language = dflt;
+value = mooniak;
+}
+);
+},
+{
+key = licenses;
+values = (
+{
+language = dflt;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org";
+}
+);
+},
+{
+key = designerURL;
+value = "http://www.mooniak.com/";
+},
+{
+key = manufacturerURL;
+value = "https://mooniak.com/";
+},
+{
+key = licenseURL;
+value = "https://openfontlicense.org";
 }
 );
 stems = (
