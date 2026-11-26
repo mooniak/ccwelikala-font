@@ -1,0 +1,83 @@
+[
+ {
+  "family": "CCWelikala",
+  "commit": "be050ef608f4d8a56d42b360212b0279eae5f36f",
+  "commit_short": "be050ef",
+  "version": "1.000",
+  "generated_at": "2026-11-26T15:18:24Z",
+  "stage": {
+   "n": 1,
+   "name": "Bootstrap",
+   "cumulative": 9,
+   "total": 110,
+   "gate_met": true,
+   "kernel_checkable_complete": false,
+   "kernel_complete": null,
+   "unverified_kernel_entries": [
+    "classic-conjuncts",
+    "conjunct-i-forms",
+    "ksha",
+    "rakaransaya",
+    "repaya",
+    "yansaya"
+   ]
+  },
+  "qa": {
+   "profile": "mooniak",
+   "verdict": "warn",
+   "pass_rate": 76,
+   "counts": {
+    "WARN": 13,
+    "SKIP": 51,
+    "INFO": 12,
+    "PASS": 81
+   },
+   "total_checks": 157
+  },
+  "run_url": "https://github.com/mooniak/ccwelikala-font/actions/runs/45847529423",
+  "ref_name": "dev",
+  "channel": "canary",
+  "repository": "mooniak/ccwelikala-font"
+ },
+ {
+  "family": "CCWelikala",
+  "commit": "fdf2cbb8ffcf2c68ab1512bd10f7c7222ee32a02",
+  "commit_short": "fdf2cbb",
+  "version": "1.000",
+  "generated_at": "2026-11-18T18:21:51Z",
+  "stage": {
+   "n": 1,
+   "name": "Bootstrap",
+   "cumulative": 9,
+   "total": 110,
+   "gate_met": true,
+   "kernel_checkable_complete": false,
+   "kernel_complete": null,
+   "unverified_kernel_entries": [
+    "classic-conjuncts",
+    "conjunct-i-forms",
+    "ksha",
+    "rakaransaya",
+    "repaya",
+    "yansaya"
+   ]
+  },
+  "qa": {
+   "profile": "googlefonts",
+   "verdict": "fail",
+   "pass_rate": 69,
+   "counts": {
+    "FAIL": 4,
+    "WARN": 18,
+    "SKIP": 86,
+    "INFO": 20,
+    "PASS": 94
+   },
+   "total_checks": 222
+  },
+  "run_url": "https://github.com/mooniak/ccwelikala-font/actions/runs/44368632324",
+  "ref_name": "dev",
+  "channel": "canary",
+  "repository": "mooniak/ccwelikala-font"
+ }
+]
